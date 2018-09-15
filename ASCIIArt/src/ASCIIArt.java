@@ -13,5 +13,52 @@
  * @author Mr. Rasmussen 
  *
  */
-
-// YOUR CODE GOES HERE :)
+public class ASCIIArt{
+	public static void main(String[] args) {
+		printASCII();
+	}
+	
+	public static void printASCII() {
+		System.out.println("                                     /");
+		System.out.println("                                    /*|");
+		System.out.println("			           /***)");
+		System.out.println("		                   /***)");
+		System.out.println("			          /***/");
+		System.out.println("	                         /***/");
+		System.out.println("                               /***/          //  ");
+		System.out.println("                             /###/ 	    /*/");
+		System.out.println("                           /###/         /**/ ");
+		System.out.println("                          /##/	         /*/	                                          ________________________");
+		System.out.println("                        /##/	       /**)                                              |########################|                   //\\\\                         |#                        #|                         //\\\\             ");
+		System.out.println("                      (###/	      (**|                                                \\######################/                   /#  #\\                        |#                        #|                        /#  #\\");
+		System.out.println("                     (###/	       (**\\                                                         |##|			    /# 	  #\\			   |#    		     #|	   		      /#    #\\ ");
+		System.out.println("                       \\##\\		 \\***\\	                                                    |##|                           /#      #\\                      |#                        #|                      /#      #\\");
+		System.out.println("                         \\#\\   	         \\****\\                                                     |##|                          /#        #\\                     |#                        #|                     /#        #\\");
+		System.out.println("                           \\#\\	           \\***)                                                    |##|                         /#          #\\                    |#                        #|                    /#          #\\");
+		System.out.println("                             \\#\\	    \\**/		                                    |##|                        /#            #\\                   |#                        #|                   /#            #\\");
+		System.out.println("                               \\#\\	    (*/                                                     |##|                       /#              #\\                   \\#                      #/                   /#              #\\");
+		System.out.println("                                 \\ 	   /*)           __                                         |##|                      /#                #\\                   \\#                    #/                   /#                #|");
+		System.out.println("      		 /	 	  +                      \\@)                                        |##|                     |#                  #|                   \\#                  #/                   |#                 #|");
+		System.out.println("	       /&/                                         \\@@)                                     |##|                     |#                  #|                    \\#                #/                    |#                 #|");
+		System.out.println("	      /&&\\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _             \\@@)                                   |##|                     |#                  #|                     \\#              #/                     |#                 #|");
+		System.out.println(" 	      \\&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-            |@@)                                  |##|                     |####################|                      \\#            #/                      |###################|");
+		System.out.println("                                                              /@@)                                  |##|                     |#                  #|                       \\#          #/                       |#                 #|");
+		System.out.println("                     /                                       /@@/                     ##            |##|                     |#                  #|                        \\#	     #/                        |#                 #|");
+		System.out.println("		    /&\\_ _ _ _ _ _ _ _ _ _ _ _ _ _         /@@)                      |##|           |##|                     |#                  #|                         \\#      #/                         |#                 #|");
+		System.out.println("		    \\&&&&&&&&&&&&&&&&&&&&&&&&&&&/	/@@)                         |##|           |##|                     |#                  #|                          \\#    #/                          |#                 #|");
+		System.out.println("                                                                                     |#################|                     |#                  #|                            \\##/                            |#                 #|");
+		System.out.println("		       <&&&&&&&&&&&&&&&&&&&&&&&>                                      \\###############/                      |#                  #|                             \\/                             |#                 #| ");
+		System.out.println("		        (&&&&&&&&&&&&&&&&&&&&&)");
+		System.out.println("	/``\\	          \\***************/");
+		System.out.println("       /****/");
+		System.out.println("      (***/ 					      ____");
+		System.out.println("      (****\\_                 __________/------------/***/ ");
+		System.out.println("       \\******-----------*******************************/");
+		System.out.println("	\\###################/		");
+		System.out.println("					/&#####################)");
+		System.out.println("			($$$$$$$$$$$$$$$$$&/");
+        System.out.println("\n\n\nWHEN JAVA ENCOUNTERS ASCII ART....................");
+		
+	}
+}
+// YOUR CODE GOES HERE 
