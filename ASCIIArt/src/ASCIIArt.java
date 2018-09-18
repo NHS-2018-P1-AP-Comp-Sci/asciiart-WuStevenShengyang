@@ -13,12 +13,33 @@
  * @author Mr. Rasmussen 
  *
  */
+// YOUR CODE GOES HERE 
+
 public class ASCIIArt{
+	
 	public static void main(String[] args) {
+		/*
+		 * Function calls
+		 */
+		printBorder();
+		printBorder(); 
 		printASCII();
+		printMessage1();	
+		printMessage2();
+		printMessage1();
+		printMessage3();
+		System.out.println("\n\n");
+		printBorder();
+		printBorder();
 	}
 	
+	/*
+	 * Static Methods
+	 */
 	public static void printASCII() {
+		/*
+		 * Main Part
+		 */
 		System.out.println("                                     /");
 		System.out.println("                                    /*|");
 		System.out.println("			           /***)");
@@ -38,7 +59,7 @@ public class ASCIIArt{
 		System.out.println("                             \\#\\	    \\**/		                                    |##|                        /#            #\\                   |#                        #|                   /#            #\\");
 		System.out.println("                               \\#\\	    (*/                                                     |##|                       /#              #\\                   \\#                      #/                   /#              #\\");
 		System.out.println("                                 \\ 	   /*)           __                                         |##|                      /#                #\\                   \\#                    #/                   /#                #|");
-		System.out.println("      		 /	 	  +                      \\@)                                        |##|                     |#                  #|                   \\#                  #/                   |#                 #|");
+		System.out.println("      		 /	 	  \"                      \\@)                                        |##|                     |#                  #|                   \\#                  #/                   |#                 #|");
 		System.out.println("	       /&/                                         \\@@)                                     |##|                     |#                  #|                    \\#                #/                    |#                 #|");
 		System.out.println("	      /&&\\ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _             \\@@)                                   |##|                     |#                  #|                     \\#              #/                     |#                 #|");
 		System.out.println(" 	      \\&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-            |@@)                                  |##|                     |####################|                      \\#            #/                      |###################|");
@@ -57,8 +78,34 @@ public class ASCIIArt{
 		System.out.println("	\\###################/		");
 		System.out.println("					/&#####################)");
 		System.out.println("			($$$$$$$$$$$$$$$$$&/");
-        System.out.println("\n\n\nWHEN JAVA ENCOUNTERS ASCII ART....................");
 		
 	}
+	
+	public static void printMessage1() {
+		/*
+		 * Print caption
+		 */
+		System.out.println("\n\n\nWHEN \"JAVA\" ENCOUNTERS ASCII ART....................");	
+	}
+	
+	public static void printMessage2() {
+		/*
+		 * Print message 2
+		 */
+		System.out.println("Everything seems good........................................");	
+	}
+	
+	public static void printMessage3() {
+		/*
+		 * Print message 3
+		 */
+		System.out.println("How can I make this better?");	
+	}
+	
+	public static void printBorder() {
+		/*
+		 * Print border
+		 */
+		System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+	}
 }
-// YOUR CODE GOES HERE 
